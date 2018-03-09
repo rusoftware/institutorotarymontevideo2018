@@ -1,0 +1,50 @@
+# Archivo de Configuración para todo el servidor y las web 2014/2015/2016
+# Federico Teiserskis - www.rhcreativo.com.ar
+
+AddHandler x-httpd-php5-5 .php
+# AddHandler x-httpd-php5-6 .php
+
+DirectoryIndex index.php index.html
+<IfModule mod_rewrite.c>
+# Activar RewriteEngine
+RewriteEngine on
+RewriteBase /
+
+# ## SECCION PARA REDIRECCIONAR SIEMPRE CON/SIN WWW
+RewriteCond %{HTTP_HOST} ^institutorotarymontevideo2018.com [nc]
+RewriteRule ^(.*)$ http://www.institutorotarymontevideo2018.com/$1 [r=301,nc]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+Rewriterule ^index.html$ index.php
+Rewriterule ^programa.html$ programa.php
+Rewriterule ^mensajes.html$ mensajes.php
+Rewriterule ^comision.html$ comision.php
+Rewriterule ^turismo.html$ turismo.php
+Rewriterule ^hoteles.html$ hoteles.php
+Rewriterule ^quienes-somos.html quienes-somos.php
+Rewriterule ^como-llego.html como-llego.php
+Rewriterule ^galeria.html galeria.php
+Rewriterule ^inscriptos.html inscriptos.php
+Rewriterule ^boletines.html boletines.php
+Rewriterule ^joaquin-serratosa-cibils.html joaquin-serratosa-cibils.php
+
+# Rewriterule ^Notas/(.+)_(.+).html$ Nota.php?id=$1
+</IfModule>
+
+<IfModule deflate_module>
+    # Enable compression for the following file types.
+    AddOutputFilterByType            \
+     DEFLATE                         \
+      application/javascript         \
+      text/css                       \
+      text/html                      \
+      text/javascript                \
+      text/plain                     \
+      text/xml
+</IfModule>
+
+<FilesMatch "\.(html|htm|php|js|xml|txt|css)$">
+Header set Cache-Control "max-age=604800, public, must-revalidate"
+</FilesMatch>

@@ -1,0 +1,249 @@
+/*
+azul          #3A5879
+verde         #60C2B7
+violeta       #5C4C73
+crema         #F6ECDD
+borravino     #2E1720
+azul alter    #092942
+azul alter2   #05668d
+naranja       #ea623d
+amarillo      #febd11
+*/
+.white { color: #fff; }
+.bgwhite { background-color: #fff; }
+.blue { color: #3A5879; }
+.bgblue { background-color: #3A5879; }
+.cream { color: #F6ECDD; }
+.bgcream { background-color: #F6ECDD; }
+.orange { color: #ea623d; }
+.bgorange { background-color: #ea623d; }
+.bgviolet { background-color: #5C4C73; }
+.violet { color: #5C4C73; }
+.bgyellow { background-color: #f8b15a; }
+hr.hr-grey {border-top: solid 1px #c6c6c6; }
+hr.hr-blue {border-top: solid 1px #3a5879; }
+
+a:hover,
+a:focus {
+  color: #3A5879;
+}
+.readMore,
+a[href^="mailto"] {
+  color: #3A5879;
+}
+.btn:hover,
+.btn:focus {
+  color: #3A5879;
+  border-color: #3A5879;
+}
+.btn-primary {
+  background: #3A5879;
+  border-color: #3A5879;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #3A5879;
+  border-color: #3A5879;
+  background: #ffebb7;
+}
+
+.btn-rotary {
+  background: #febd11;
+  border-color: #d5a31f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0px 0px 12px rgba(0,0,0,.3);
+}
+
+.btn-rotary:hover,
+.btn-rotary:focus {
+  color: #febd11;
+  border-color: #38477d;
+  background: #38477d;
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+  background: transparent;
+  border-bottom: 2px solid #3A5879;
+}
+.navbar-default .navbar-nav > .active:hover > a,
+.navbar-default .navbar-nav > .active:focus > a {
+  background: transparent;
+  border-color: #3A5879;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #3A5879;
+  background: #ffebb7;
+}
+
+.header-search {
+  background: #3A5879;
+}
+.socialIcons > li > a:hover {
+  color: #3A5879;
+}
+.socialIcons.bigIcons > li > a:hover {
+  background: #3A5879;
+}
+.socialIcons.bigIcons.type2 > li > a {
+  background: #3A5879;
+}
+#toTop {
+  background: #3A5879;
+}
+.bigArrow:focus,
+.bigArrow:hover {
+  border-color: #3A5879;
+  color: #febd11;
+}
+.iconBox .media > .pull-left i {
+  color: #3A5879;
+}
+.iconBox.type2 .media > .pull-left:hover {
+  border-color: #3A5879;
+  background: #3A5879;
+}
+.iconBox.type3 .media > .pull-left {
+  background: #3A5879;
+}
+.iconBox.type4 .media > .pull-left {
+  background: #3A5879;
+}
+.octagon:hover .octbg {
+  fill: #3A5879;
+}
+.octagon:hover .octcol {
+  fill: #3A5879;
+}
+.personBox h4 a {
+  color: #3A5879;
+}
+body .vco-notouch .vco-slider .nav-previous:hover,
+body .vco-notouch .vco-slider .nav-next:hover {
+  color: #3A5879;
+}
+body .vco-timeline .vco-navigation .timenav .content .marker.active .line,
+body .vco-timeline .vco-navigation .timenav .content .marker.active .dot,
+body .vco-timeline .vco-navigation .timenav-background .timenav-line,
+body .vco-timeline .vco-navigation .timenav .content .marker.active .line .event-line,
+body .vco-timeline .vco-navigation .timenav .content .marker .line .event-line {
+  background: #3A5879;
+}
+body .vco-notouch .vco-slider .slider-item .content .content-container .media .media-container .wikipedia h4 a:hover {
+  color: #3A5879;
+}
+.panel-default > .panel-heading a:before {
+  color: #3A5879;
+}
+.portfolio-item .overlay-img .overlay-ico {
+  background: #3A5879;
+}
+.entry-meta .entry-reply a {
+  color: #3A5879;
+}
+.blog-item p a {
+  color: #3A5879;
+}
+.blog-item.format-link .entry-title a {
+  color: #3A5879;
+}
+.blog-item.format-video .blog-thumbnail a:after {
+  color: #3A5879;
+}
+.navigation-blog {
+  color: #3A5879;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #3A5879;
+}
+.widget .btn.btn-default.btn-sm:focus,
+.widget .btn.btn-default.btn-sm:hover {
+  background: #3A5879;
+  color: #fff;
+}
+.flickr_badge .flickr_badge_image a:before {
+  background: #3A5879;
+}
+footer a {
+  color: #3A5879;
+}
+footer .blog-item a:hover {
+  color: #3A5879;
+}
+footer .socialIcons.bigIcons > li > a:hover,
+.prefooter .socialIcons.bigIcons > li > a:hover {
+  background: #3A5879;
+}
+.googleMap .customMarker {
+  color: #3A5879;
+}
+/*.priceBox.special .inner {
+  background: #3A5879;
+}*/
+.priceBox.type2 .fa {
+  color: #3A5879;
+}
+.table-responsive table > tbody > tr:hover > td,
+.table-responsive table > tbody > tr:hover > th {
+  background-color: #3A5879;
+}
+.flexslider .inner .btn-default:hover,
+.flexslider .inner .btn-default:focus,
+.flexslider .inner .btn-default:active,
+.flexslider .inner .btn-default.active {
+  color: #3A5879;
+}
+.flexslider .inner .btn-default:hover {
+  border-color: #3A5879;
+}
+.flexslider .flex-direction-nav a:hover {
+  color: #3A5879;
+}
+.flexslider.carousel-slider .flex-direction-nav a:hover {
+  color: #3A5879;
+}
+.area-hover {
+  background: #3A5879;
+}
+#galleryFilters .btn-primary:hover,
+#galleryFilters .btn-primary:focus,
+#galleryFilters .btn-primary:active,
+#galleryFilters .btn-primary.active {
+  background: #3A5879;
+  border-color: #3A5879;
+}
+
+/********************** FDT CUSTOM ************************/
+.btn-secondary {
+  color: #febd11;
+  border-color: #febd11;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background: #ffebb7;
+  border-color: #005daa;
+  color: #005daa;
+}
+
+.btn-terciary {
+  background: #2E1720;
+  border-color: #2E1720;
+  color: #ffebb7;
+}
+
+.btn-terciary:hover,
+.btn-terciary:focus {
+  background: #ffebb7;
+  border-color: #2E1720;
+  color: #2E1720;
+}
