@@ -122,7 +122,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-8 col-md-push-2 text-center">
+      <div class="col-md-12 text-center">
         <header class="page-header text-center">
           <h1 class="page-title">Video presentación del</h1>
 
@@ -130,9 +130,11 @@
           "Joaquin Serratosa Cibils"</h2>
         </header>
 
-        <p class="larger">
-          Cada año, los funcionarios, ex funcionarios y funcionarios entrantes de Rotary asisten a Institutos Rotarios para compartir información, establecer relaciones e intercambiar ideas sobre Rotary International y La Fundación Rotaria. Estos eventos incluyen:
+        <p class="larger text-block-highlighted">
+          Cada año, los funcionarios, ex funcionarios y funcionarios entrantes de Rotary asisten a Institutos Rotarios para compartir información, establecer relaciones e intercambiar ideas sobre Rotary International y La Fundación Rotaria.
         </p>
+
+        <p class="larger text-left"><u>Estos eventos incluyen:</u></p>
       </div>
 
       <div class="col-md-12 text-center video-section">

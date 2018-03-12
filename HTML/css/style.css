@@ -4540,3 +4540,8 @@ h1.page-title.programa-title {
     display: none;
   }
 }
+
+.text-block-highlighted {
+  background: rgba(0,0,0,.4);
+  padding: 20px 38px;
+}
